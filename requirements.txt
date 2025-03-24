@@ -1,0 +1,5 @@
+Flask
+pydantic
+langchain
+langchain-google-genai
+gunicorn

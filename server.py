@@ -19,6 +19,10 @@ prompt = PromptTemplate(
     template=(
         "Based on the symptom, age and gender '{symptom}', provide "
         "the corresponding types of doctors to visit. Return JSON strictly in the format: \n\n"
+        "List of types of specialization: ['Public Health', 'Family Welfare', 'Vector Borne Diseases', " 
+        "'Tuberculosis', 'Leprosy', 'Epidemiology', 'Obstetrics & Gynaecology', 'Pediatrics', 'Surgery',"
+        " 'General Medicine', 'Anesthesiology', 'Ophthalmology', 'Orthopedics', 'Dermatology', 'Venereology',"
+        " 'Chest Diseases', 'ENT', 'Psychiatry', 'Administration', 'MO, OH ', 'Sub Total', 'Neurology', 'Cardiologist ']\n"
         "{format_instructions}\n\n"
         "No additional text or explanations."
     ),

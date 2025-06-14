@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 from langchain.output_parsers import PydanticOutputParser
 
 app = Flask(__name__)
-model = ChatGoogleGenerativeAI(model="gemini-1.5-pro")
+model = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.0)
 
 class Diagnosis(BaseModel):
     type: list[str] = Field(..., description="Types of doctor to visit")

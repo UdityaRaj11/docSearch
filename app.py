@@ -23,6 +23,7 @@ prompt = PromptTemplate(
         "'Tuberculosis', 'Leprosy', 'Epidemiology', 'Obstetrics & Gynaecology', 'Pediatrics', 'Surgery',"
         " 'General Medicine', 'Anesthesiology', 'Ophthalmology', 'Orthopedics', 'Dermatology', 'Venereology',"
         " 'Chest Diseases', 'ENT', 'Psychiatry', 'Administration', 'MO, OH ', 'Sub Total', 'Neurology', 'Cardiologist ']\n"
+        "Make sure to return the list with most relevant specializations first.\n\n"
         "{format_instructions}\n\n"
         "No additional text or explanations."
     ),
